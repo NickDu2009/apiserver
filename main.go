@@ -33,8 +33,8 @@ func main() {
 
 func pingServer() error {
 	for i := 0; i < 2; i++ {
-		resp, err := http.Get("http://127.0.0.1:8080" + "sd/health")
-		if err != nil && resp.StatusCode == 200 {
+		resp, err := http.Get("http://127.0.0.1:8080" + "/sd/health")
+		if err == nil && resp.StatusCode == 200 {
 			return nil
 		}
 
