@@ -1,0 +1,8 @@
+hash: 1a599473190a08d1d5c68ff9755206025592354e761d89cba06787e036a725ee
+updated: 2018-07-06T20:12:52.1520342+08:00
+imports:
+- name: github.com/gin-gonic/gin
+  version: d459835d2b077e44f7c9b453505ee29881d5d12d
+- name: github.com/shirou/gopsutil
+  version: 4a180b209f5f494e5923cfce81ea30ba23915877
+testImports: []
