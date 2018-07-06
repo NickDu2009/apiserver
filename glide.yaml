@@ -1,2 +1,6 @@
 package: github.com/NickDu2009/apiserver
-import: []
+import:
+- package: github.com/gin-gonic/gin
+  version: ^1.2.0
+- package: github.com/shirou/gopsutil
+  version: ^2.18.6
